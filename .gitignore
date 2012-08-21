@@ -27,5 +27,4 @@ pip-log.txt
 .mr.developer.cfg
 
 # Cython stuff
-*.c
 *.so
