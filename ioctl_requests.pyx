@@ -1,10 +1,10 @@
-cimport sockio
+cimport data_getter
 
 def get_SIOCGIFNETMASK():
-	return sockio.SIOCGIFNETMASK
+	return data_getter.SIOCGIFNETMASK
 
 def get_SIOCGIFADDR():
-	return sockio.SIOCGIFADDR
+	return data_getter.SIOCGIFADDR
 
 def get_SIOCGIFBRDADDR():
-	return sockio.SIOCGIFBRDADDR
+	return data_getter.SIOCGIFBRDADDR
