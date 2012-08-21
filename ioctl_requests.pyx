@@ -8,3 +8,6 @@ def get_SIOCGIFADDR():
 
 def get_SIOCGIFBRDADDR():
 	return data_getter.SIOCGIFBRDADDR
+
+def get_SIOCGIFCONF():
+	return data_getter.SIOCGIFCONF

@@ -8,3 +8,4 @@ cdef extern from 'net/if.h':
 	unsigned int SIOCGIFNETMASK
 	unsigned int SIOCGIFADDR
 	unsigned int SIOCGIFBRDADDR
+	unsigned int SIOCGIFCONF
