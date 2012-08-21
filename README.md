@@ -22,6 +22,10 @@ Implemented here is a simple Cython module that sucks in these magic values from
 
 You should be able to just:
 
+	sudo pip install intinfo
+
+or if you want to build it yourself:
+
     sudo python ./setup.py install
 
 
